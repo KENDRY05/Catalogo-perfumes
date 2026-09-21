@@ -650,7 +650,7 @@ El proyecto cuenta con:
 
 # 👨‍💻 Autores
 
-**KENDRY05
+**Kendry Medrano
   Carlos Avendaño
   Roberts Calderon
   German Espinoza
