@@ -1,0 +1,140 @@
+.admin-page {
+    min-height: 100vh;
+    padding: 30px;
+    background: #f7f4f7;
+    font-family: Arial, sans-serif;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.admin-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.admin-header p {
+    color: #777;
+}
+
+.admin-primary-button {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    background: #8e4f82;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.admin-primary-button:hover {
+    background: #733d69;
+}
+
+.admin-section-title {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.admin-error {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #fde8e8;
+    color: #c0392b;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(280px, 1fr)
+    );
+    gap: 20px;
+}
+
+.producto-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.producto-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12);
+}
+
+.producto-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.producto-descripcion {
+    color: #666;
+    min-height: 45px;
+}
+
+.producto-dato {
+    margin: 8px 0;
+    color: #444;
+}
+
+.producto-precio {
+    font-size: 21px;
+    font-weight: bold;
+    color: #8e4f82;
+    margin: 15px 0;
+}
+
+.producto-stock {
+    color: #555;
+    font-size: 14px;
+}
+
+.producto-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.admin-edit-button,
+.admin-delete-button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.admin-edit-button {
+    background: #eee1eb;
+    color: #733d69;
+}
+
+.admin-edit-button:hover {
+    background: #dfc9dc;
+}
+
+.admin-delete-button {
+    background: #f8dddd;
+    color: #c0392b;
+}
+
+.admin-delete-button:hover {
+    background: #f1caca;
+}
+
+.admin-empty {
+    text-align: center;
+    padding: 40px;
+    color: #777;
+    background: white;
+    border-radius: 12px;
+}
