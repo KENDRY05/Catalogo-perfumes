@@ -648,8 +648,13 @@ El proyecto cuenta con:
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Autores
 
-**KENDRY05**
+**KENDRY05
+  Carlos Avendaño
+  Roberts Calderon
+  German Espinoza
+  Jose Gabriel Gomez
+  Heyling Avendaño**
 
 Proyecto desarrollado con fines académicos y de práctica para la implementación de una aplicación Fullstack utilizando **Laravel + React**.
